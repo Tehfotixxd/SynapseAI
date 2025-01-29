@@ -19,7 +19,7 @@ export default function Header() {
               <Link href="/contact">Contact</Link>
             </Button>
             <a
-              href="https://github.com/yourusername/nexusai"
+              href="https://github.com/Tehfotixxd/SynapseAI"
               target="_blank"
               rel="noopener noreferrer"
               className="cyberpunk-text hover:text-secondary"
@@ -27,7 +27,7 @@ export default function Header() {
               <Github size={24} />
             </a>
             <a
-              href="https://t.me/yourusername"
+              href="https://t.me/SynapseAIPortal"
               target="_blank"
               rel="noopener noreferrer"
               className="cyberpunk-text hover:text-secondary"
@@ -35,7 +35,7 @@ export default function Header() {
               <Send size={24} />
             </a>
             <a
-              href="https://twitter.com/yourusername"
+              href="https://x.com/synapseAISolana"
               target="_blank"
               rel="noopener noreferrer"
               className="cyberpunk-text hover:text-secondary"
