@@ -2,6 +2,8 @@
 
 ![SynapseAI Logo](https://i.ibb.co/LXx76mKq/portada.png)
 
+Web: synapseai.site
+
 SynapseAI is a cutting-edge web application that combines advanced AI capabilities with real-time 3D visualizations to provide users with an immersive and informative cryptocurrency experience. Our platform leverages state-of-the-art natural language processing and machine learning algorithms to deliver accurate, up-to-date insights into the crypto market.
 
 ## 🌟 Features
