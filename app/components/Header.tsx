@@ -12,12 +12,6 @@ export default function Header() {
             <Button variant="ghost" asChild className="cyberpunk-text hover:bg-primary/20">
               <Link href="/">Home</Link>
             </Button>
-            <Button variant="ghost" asChild className="cyberpunk-text hover:bg-primary/20">
-              <Link href="/about">About</Link>
-            </Button>
-            <Button variant="ghost" asChild className="cyberpunk-text hover:bg-primary/20">
-              <Link href="/contact">Contact</Link>
-            </Button>
             <a
               href="https://github.com/Tehfotixxd/SynapseAI"
               target="_blank"
