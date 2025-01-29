@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --background: 230 60% 5%;
+  --foreground: 180 100% 80%;
+  --card: 230 50% 10%;
+  --card-foreground: 180 100% 80%;
+  --popover: 230 50% 10%;
+  --popover-foreground: 180 100% 80%;
+  --primary: 320 100% 60%;
+  --primary-foreground: 230 60% 5%;
+  --secondary: 190 100% 50%;
+  --secondary-foreground: 230 60% 5%;
+  --muted: 230 40% 15%;
+  --muted-foreground: 180 80% 70%;
+  --accent: 280 100% 60%;
+  --accent-foreground: 230 60% 5%;
+  --destructive: 0 100% 50%;
+  --destructive-foreground: 180 100% 80%;
+  --border: 230 60% 30%;
+  --input: 230 50% 15%;
+  --ring: 320 100% 60%;
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: "Fira Code", monospace;
+  background-image: linear-gradient(to bottom, hsla(230, 60%, 8%, 0.8), hsla(230, 60%, 5%, 0.8)),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%230af' fill-opacity='0.1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.cyberpunk-text {
+  color: hsl(var(--foreground));
+  text-shadow: 0 0 5px hsl(var(--foreground) / 50%), 0 0 10px hsl(var(--primary) / 50%), 0 0 15px
+    hsl(var(--secondary) / 50%);
+}
+
+.cyberpunk-border {
+  border: 2px solid hsl(var(--primary) / 50%);
+  box-shadow: 0 0 10px hsl(var(--primary) / 30%), 0 0 20px hsl(var(--secondary) / 30%);
+}
+
+.cyberpunk-input {
+  background-color: hsl(var(--input));
+  color: hsl(var(--foreground));
+  border: 1px solid hsl(var(--primary) / 50%);
+  box-shadow: 0 0 10px hsl(var(--primary) / 30%);
+}
+
+.cyberpunk-input::placeholder {
+  color: hsl(var(--foreground) / 50%);
+}
+
+.cyberpunk-button {
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.cyberpunk-button:hover {
+  background-color: transparent;
+  color: hsl(var(--primary));
+  border: 2px solid hsl(var(--primary));
+  box-shadow: 0 0 10px hsl(var(--primary) / 50%), 0 0 20px hsl(var(--secondary) / 50%);
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 hsl(var(--primary) / 75%), -0.05em -0.025em 0 hsl(var(--secondary) / 75%), -0.025em 0.05em 0
+      hsl(var(--accent) / 75%);
+  }
+  14% {
+    text-shadow: 0.05em 0 0 hsl(var(--primary) / 75%), -0.05em -0.025em 0 hsl(var(--secondary) / 75%), -0.025em 0.05em 0
+      hsl(var(--accent) / 75%);
+  }
+  15% {
+    text-shadow: -0.05em -0.025em 0 hsl(var(--primary) / 75%), 0.025em 0.025em 0 hsl(var(--secondary) / 75%), -0.05em
+      -0.05em 0 hsl(var(--accent) / 75%);
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 hsl(var(--primary) / 75%), 0.025em 0.025em 0 hsl(var(--secondary) / 75%), -0.05em
+      -0.05em 0 hsl(var(--accent) / 75%);
+  }
+  50% {
+    text-shadow: 0.025em 0.05em 0 hsl(var(--primary) / 75%), 0.05em 0 0 hsl(var(--secondary) / 75%), 0 -0.05em 0
+      hsl(var(--accent) / 75%);
+  }
+  99% {
+    text-shadow: 0.025em 0.05em 0 hsl(var(--primary) / 75%), 0.05em 0 0 hsl(var(--secondary) / 75%), 0 -0.05em 0
+      hsl(var(--accent) / 75%);
+  }
+  100% {
+    text-shadow: -0.025em 0 0 hsl(var(--primary) / 75%), -0.025em -0.025em 0 hsl(var(--secondary) / 75%), -0.025em
+      -0.05em 0 hsl(var(--accent) / 75%);
+  }
+}
+
+.ai-text {
+  animation: glitch 1s infinite;
+}
+
